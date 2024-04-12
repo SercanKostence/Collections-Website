@@ -1,0 +1,79 @@
+.email-container {
+  height: 400px;
+  width: 90%;
+  background-color: #132742; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 50px;
+  border: #132742 solid 1px;
+  border-radius: 30px;
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  h1 {
+    margin: -50px 0px 10px 10px;
+    color: white;
+  }
+
+  p {
+    font-size: 18px;
+    width: 400px;
+    margin: 10px 0px 10px 10px;
+    color: white; /* Açıklama metnini beyaz renk yap */
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    width: 100%; // Butonun genişliği input ile aynı
+    position: relative; // Pozisyon belirlendi
+  }
+
+  input[type="email"] {
+    margin-top: 30px;
+    flex: 1;
+    height: 70px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white; 
+  }
+  input[type="email"]::placeholder {
+    padding-left: 20px;
+    font-size: 15px; // Placeholder için font boyutu
+  }
+  .email-button {
+    box-shadow: 0px 10px 0px #f7dfd0;
+    background-color: #FF7B29;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 50px; // Yükseklik ayarı değiştirildi
+    width: 50px; // Butonun genişliği
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0; // Sağa hizalandı
+    top: 0;
+    border-radius: 5px;
+    margin: 38px 5px 5px 5px; // Sağ tarafta yuvarlak kenarlar
+  }
+
+  .email-button i {
+    font-size: 50px; // İkon boyutu ayarlandı
+  }
+  img {
+    width: 207px; 
+    height: 578px;
+    margin: 0px 0px 250px 250px;
+  }
+}

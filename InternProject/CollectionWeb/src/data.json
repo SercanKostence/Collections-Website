@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Data 1",
+      "image": "chair.png",
+      "price": 895.50,
+      "year": 1192,
+      "bids": 10,
+      "closeDay": 5,
+      "type": "Furniture"
+    },
+    {
+      "title": "Data 2",
+      "image": "sofa.png",
+      "price": 759,
+      "year": 1078,
+      "bids": 15,
+      "closeDay": 3,
+      "type": "Furniture"
+    },
+    {
+      "title": "Data 3",
+      "image": "skull.png",
+      "price": 895.50,
+      "year": 1256,
+      "bids": 20,
+      "closeDay": 7,
+      "type": "Weapon"
+    }
+]
+
+  

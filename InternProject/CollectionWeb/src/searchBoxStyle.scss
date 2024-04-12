@@ -1,0 +1,73 @@
+.dropbox-container {
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem; 
+    align-items: center;
+  }
+  
+  .dropbox-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    
+    
+  }
+  .dropbox-all{
+    width: 90%;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding-left: 30px;
+    margin: 50px 20px 50px 50px;
+  }
+  h5 {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: start !important;
+  }
+  
+
+.p-dropdown-panel {
+  display: block !important;
+  position: absolute !important;
+  width: max-content !important;
+
+}
+
+.p-dropdown-item {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  background-color: white;
+  padding: 8px 16px; /* İç boşluklar */
+}
+
+.p-dropdown-items-wrapper {
+  width: 130%;
+  max-height: 80px !important;
+  overflow-y: auto;
+}
+.search-button{
+  height: 60px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #132742;
+}
+.text-search{
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.search-icon{
+  padding-right: 10px;
+}

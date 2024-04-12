@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Norway", "religion": "Asatro", "year": "793 AD", "type": "Weapons" },
+  { "id": 2, "name": "Sweden", "religion": "Norse mythology", "year": "600 AD", "type": "Furniture" },
+  { "id": 3, "name": "Denmark", "religion": "Norse mythology", "year": "700 AD", "type": "Shields" },
+  { "id": 4, "name": "Iceland", "religion": "Norse mythology", "year": "874 AD", "type": "Helmets" },
+  { "id": 5, "name": "Finland", "religion": "Finnish paganism", "year": "1000 AD", "type": "Spears" }
+]

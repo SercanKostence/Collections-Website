@@ -1,0 +1,26 @@
+[
+  {
+    "image": "../images/skull.png",
+    "type": "Weapon"
+  },
+  {
+    "image": "../images/skull.png",
+    "type": "Weapon"
+  },
+  {
+    "image": "../images/chair.png",
+    "type": "Furniture"
+  },
+  {
+    "image": "../images/skull.png",
+    "type": "Weapon"
+  },
+  {
+    "image": "../images/skull.png",
+    "type": "Weapon"
+  },
+  {
+    "image": "../images/chair.png",
+    "type": "Furniture"
+  }
+]
